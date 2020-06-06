@@ -135,6 +135,14 @@ main li:hover {
     grid-template-columns: 50px 50px 50px 50px 50px; 
     grid-template-rows: 50px 50px 50px 50px 50px;
   }
+  
+  .box {
+    font-size: 20px;
+  }
+  
+  #logo #about {
+    display: none;
+   }
 }
 
 .box {
