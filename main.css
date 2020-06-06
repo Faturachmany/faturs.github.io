@@ -146,15 +146,19 @@ button.box {
    }
   
   header li {
-    margin: 3px 10px 0px 0px;
+    margin: 3px 5px 0px 0px;
+  }
+  
+  button.box {
+    font-size: 35px;
   }
 }
 
-@media only screen and (max-width: 600px) {
+/* @media only screen and (max-width: 600px) {
   button.box {
-    font-size: 30px;
+    font-size: 35px;
   }
-}
+} */
 
 footer {
   margin-bottom: 0 auto;
