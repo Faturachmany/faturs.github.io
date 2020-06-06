@@ -130,17 +130,17 @@ main li:hover {
   justify-content: center;
 }
 
-@media only (max-width: 1020px) {
+@media only screen and (max-width: 768px) {
   .game-board {
     grid-template-columns: 50px 50px 50px 50px 50px; 
     grid-template-rows: 50px 50px 50px 50px 50px;
   }
   
   .box {
-    font-size: 5px;
+    font-size: 10px;
   }
   
-  #logo #about {
+  #logo, #about {
     display: none;
    }
 }
