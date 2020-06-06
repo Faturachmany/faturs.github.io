@@ -126,9 +126,14 @@
         box[empty].innerHTML = tem
         arr[empty] = temArray;
       }
-
-      if (arr == rightArr) {
-        alert('CONGRATULATIONS YOU SOLVED IT !!!');
+      let flag = true;
+      for(let i = 0; i < arr.length; i++) {
+        if (arr[i] !== rightArr[i]) {
+          flag = false;
+        }
+      }
+      if (flag === true) {
+        alert('CONGRATULATION YOU SOLVED IT!!!')
       }
     }
 
