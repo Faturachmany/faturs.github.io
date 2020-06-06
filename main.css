@@ -144,11 +144,15 @@ button.box {
   #logo, #about {
     display: none;
    }
+  
+  header li {
+    margin: 3px 10px 0px 0px;
+  }
 }
 
 @media only screen and (max-width: 600px) {
   button.box {
-    font-size: 20px;
+    font-size: 30px;
   }
 }
 
