@@ -130,7 +130,7 @@ main li:hover {
   justify-content: center;
 }
 
-.box {
+button.box {
   border: 1px solid black;
   font-size: 40px;
  }
@@ -140,14 +140,16 @@ main li:hover {
     grid-template-columns: 50px 50px 50px 50px 50px; 
     grid-template-rows: 50px 50px 50px 50px 50px;
   }
-
-  .box {
-    font-size: 15px;
-  }
   
   #logo, #about {
     display: none;
    }
+}
+
+@media only screen and (max-width: 600px) {
+  button.box {
+    font-size: 20px;
+  }
 }
 
 footer {
